@@ -1,0 +1,69 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="Subject Name:"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/enter_sub"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Topics (separate with a ' , ' ):"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="100dp"
+            android:id="@+id/enter_top"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="Add"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_marginTop="5dp"
+            android:onClick="addSubject"
+            android:background="@drawable/button_resource"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="Delete all subjects"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:onClick="deleteAll"
+            android:background="@drawable/button_resource"
+            />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:minHeight="50dp"
+    android:id="@+id/dialogLayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="20dp"
+        android:layout_above="@+id/butnDialog">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewDialog"
+            android:dividerHeight="2.0sp"
+            android:scrollbars="vertical"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:background="@drawable/button_resource"
+        android:id="@+id/butnDialog"
+        android:onClick="closeDialog"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout"
+    android:padding="15dp"
+    android:background="#FFFFFF">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No subjects?
+Add more using the plus button"
+            android:textSize="25sp"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/add_button"
+        android:layout_gravity="end|bottom"
+        android:src="@android:drawable/ic_input_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="@android:color/white"
+        android:background="@drawable/oval"
+        android:onClick="startAddSub"
+        />
+
+</FrameLayout>

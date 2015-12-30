@@ -1,0 +1,20 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.revision.unwin.MainActivity" >
+    
+    <item
+        android:id="@+id/add_sub"
+        android:title="Add Subject"
+        android:icon="@drawable/ic_action_edit"
+        android:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/help_menu"
+        android:title="Help"
+        android:icon="@drawable/help"
+        android:showAsAction="always"
+        />
+
+</menu>
